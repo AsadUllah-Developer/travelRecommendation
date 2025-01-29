@@ -1,0 +1,168 @@
+/* Navbar Styling */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #1a1a1a, #333);
+    padding: 10px 20px;
+    color: white;
+    height: 30px;
+}
+
+/* Logo Styling */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Navigation Links */
+.menu-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.menu-links a:hover {
+    text-decoration: underline;
+}
+
+/* Search Bar Styling */
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-container input {
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    border-radius: 30px;
+    font-size: 16px;
+    width: 250px;
+    height: 10px;
+}
+
+/* Search Icon */
+.search-icon {
+    color: #00796b;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+/* Buttons */
+.search-btn, .clear-btn {
+    border: none;
+    padding: 5px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.search-btn {
+    background-color: #00796b;
+    color: white;
+}
+
+.clear-btn {
+    background-color: #00796b;
+    color: white;
+}
+
+/* Home Section */
+.home-section {
+    position: relative;
+    background-image: url('https://i.imgur.com/8oUeeJH.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Keeps the background image centered */
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* Text color */
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%; /* Full width of the section */
+    height: 100%; /* Full height of the section */
+}
+
+.home-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.home-section p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.book-btn {
+    padding: 10px 20px;
+    background-color: #ff7f50; /* Button color */
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.book-btn:hover {
+    background-color: #ff4500; /* Button hover color */
+}
+
+/* Sidebar Styling */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 60px; /* Adjust width of the sidebar */
+    background-color: none; /* Sidebar background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /* Adds a hover effect to scale the icons */
+}
