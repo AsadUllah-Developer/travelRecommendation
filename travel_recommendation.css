@@ -105,7 +105,7 @@ nav {
     padding: 20px;
     border-radius: 10px;
     width: 100%; /* Full width of the section */
-    height: 95%; /* Full height of the section */
+    height: 93%; /* Full height of the section */
 }
 
 .home-section h1 {
@@ -166,3 +166,137 @@ nav {
 .social-icons img:hover {
     transform: scale(1.2); /* Adds a hover effect to scale the icons */
 }
+
+#recommendation-results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.recommendation-card {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.recommendation-image {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.recommendation-card h3 {
+    margin: 10px 0;
+}
+
+.recommendation-card p {
+    color: #555;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-btn, .clear-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search-btn:hover, .clear-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Navbar Styling */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #1a1a1a, #333);
+    padding: 10px 20px;
+    color: white;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+/* Logo Styling */
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Hamburger Menu */
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Navigation Links */
+.menu-links {
+    display: flex;
+    gap: 15px;
+}
+
+.menu-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.menu-links a:hover {
+    text-decoration: underline;
+}
+
+/* Search Bar Styling */
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.search-container input {
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    border-radius: 30px;
+    font-size: 16px;
+    width: 200px;
+    min-width: 150px;
+}
+
+.search-icon {
+    color: #00796b;
+    cursor: pointer;
+}
+
+.search-btn, .clear-btn {
+    border: none;
+    padding: 5px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #00796b;
+    color: white;
+}
+
+

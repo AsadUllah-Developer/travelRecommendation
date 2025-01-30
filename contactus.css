@@ -30,7 +30,7 @@ nav {
 .menu-links a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 10px;
     font-size: 18px;
     font-weight: 500;
 
@@ -40,7 +40,7 @@ nav {
 .menu-links a:hover {
     text-decoration: underline;
 }
-}
+
 
 /* Search Bar Styling
 .search-container {
@@ -62,32 +62,6 @@ nav {
     height: 10px;
 }
 
-/* Search Icon */
-/*.search-icon {
-    color: #00796b;
-    margin-left: -30px;
-    cursor: pointer;
-}
-
-/* Buttons */
-/*.search-btn, .clear-btn {
-    border: none;
-    padding: 5px 12px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-left: 10px;
-    border-radius: 10px;
-}
-
-.search-btn {
-    background-color: #00796b;
-    color: white;
-}
-
-.clear-btn {
-    background-color: #00796b;
-    color: white;
-} */
 /* Contact Section */
 .contact-section {
     position: relative;
@@ -130,7 +104,7 @@ nav {
 }
 
 .form-container {
-    background-color: white;
+    background-color: none;
     padding: 20px;
     border-radius: 8px;
     width: 40%;
